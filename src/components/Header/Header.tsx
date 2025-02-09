@@ -14,7 +14,7 @@ export const Header = () => {
   const isActive = (href: string) => pathname === href;
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-sm">
+    <header className="w-full bg-black/90 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between px-8 md:px-12 py-6">
         <Link href="/" className="relative z-50">
           <Image
@@ -61,7 +61,8 @@ export const Header = () => {
           ))}
 
           <Link
-            href="#"
+            href="https://wa.me/6281382367257?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
+            target="_blank"
             onClick={() => setIsOpen(false)}
             className={`text-xl md:hidden transition-colors duration-200 font-semibold${
               isActive("#")
@@ -74,7 +75,8 @@ export const Header = () => {
         </nav>
 
         <Link
-          href="#"
+          href="https://wa.me/6281382367257?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
+          target="_blank"
           className={`hidden md:block text-lg transition-colors duration-200 font-semibold ${
             isActive("#") ? "text-yellow-500 font-semibold" : "text-gray-300 hover:text-yellow-500"
           }`}
