@@ -5,5 +5,4 @@ export const navLinks = [
     href: "/our-program",
     label: "Our Program",
   },
-  { href: "#", label: "Join Us", mobileOnly: true },
 ];
