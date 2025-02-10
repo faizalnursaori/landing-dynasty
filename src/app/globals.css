@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "tailwindcss-motion";
 
 body {
   @apply bg-black text-white;
