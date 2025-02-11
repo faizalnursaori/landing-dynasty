@@ -3,24 +3,24 @@ export const classes = [
     src: "/toddler-class.JPG",
     alt: "Toddler Class",
     label: "Toddler Class",
-    description: "Early development through play and movement",
+    description: "4-6 Tahun",
   },
   {
     src: "/hoops-class.JPG",
     alt: "Hoops Class",
     label: "Hoops Class",
-    description: "Basketball skills and teamwork training",
+    description: "7-11 Tahun",
   },
   {
     src: "/girls-class.JPG",
     alt: "Girls Class",
     label: "Girls Class",
-    description: "Empowering young girls through dance and movement",
+    description: "12-17 Tahun",
   },
   {
     src: "/boys-class.JPG",
     alt: "Boys Class",
     label: "Boys Class",
-    description: "Building confidence and strength in young boys",
+    description: "12-17 Tahun",
   },
 ];

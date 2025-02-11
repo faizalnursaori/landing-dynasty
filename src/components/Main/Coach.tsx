@@ -23,14 +23,16 @@ const Coach = () => {
   return (
     <section className="bg-gray-200 py-16 text-gray-800">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">Our Coaches</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 intersect-once intersect:motion-preset-slide-up motion-delay-150">
+          Our Coaches
+        </h2>
 
         <div className="relative max-w-2xl mx-auto">
           <div className="relative h-[400px] w-full overflow-hidden rounded-lg">
             {coaches.map((coach, index) => (
               <div
                 key={index}
-                className={`absolute w-full h-full transition-all duration-500 ease-in-out transform`}
+                className={`absolute w-full h-full transition-all duration-500 ease-in-out transform intersect-once intersect:motion-preset-slide-up motion-delay-175`}
                 style={{
                   transform: `translateX(${(index - currentIndex) * 100}%)`,
                 }}
@@ -41,10 +43,12 @@ const Coach = () => {
                       src={coach.src}
                       alt={coach.alt}
                       fill
-                      className="object-cover rounded-lg"
+                      className="object-cover rounded-lg intersect-once intersect:motion-preset-slide-up motion-delay-190"
                     />
                   </div>
-                  <h3 className="text-xl font-semibold">{coach.name}</h3>
+                  <h3 className="text-xl font-semibold intersect-once intersect:motion-preset-slide-up motion-delay-200">
+                    {coach.name}
+                  </h3>
                 </div>
               </div>
             ))}

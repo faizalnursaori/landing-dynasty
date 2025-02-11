@@ -1,0 +1,51 @@
+export const teamMemberData = [
+  {
+    id: 1,
+    imageSrc: "/dynasty-willy.png",
+    altText: "Willyanto Salmon",
+    name: "Willyanto Salmon",
+    role: "Advisory Board",
+  },
+  {
+    id: 2,
+    imageSrc: "/dynasty-obie.png",
+    altText: "Obie Hendra",
+    name: "Obie Hendra",
+    role: "Advisory Board",
+  },
+  {
+    id: 3,
+    imageSrc: "/dynasty-fadli.png",
+    altText: "Fadli Achmad",
+    name: "Fadli Achmad",
+    role: "Advisory Board",
+  },
+  {
+    id: 4,
+    imageSrc: "/dynasty-ali.png",
+    altText: "Ali Drajat",
+    name: "Ali Drajat",
+    role: "Head Academy",
+  },
+  {
+    id: 5,
+    imageSrc: "/dynasty-riovani.png",
+    altText: "Riovani Nugraha",
+    name: "Riovani Nugraha",
+    role: "Brand Executive",
+  },
+  {
+    id: 6,
+    imageSrc: "/coach-widi.png",
+    altText: "Widi Tria",
+    name: "Widi Tria",
+    role: "Secretary",
+  },
+  {
+    id: 7,
+    imageSrc: "/coach-ogie.png",
+    altText: "Ogie Putra",
+    name: "Ogie Putra",
+    role: "Public Relation",
+  },
+];

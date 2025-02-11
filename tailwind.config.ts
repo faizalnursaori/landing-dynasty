@@ -1,5 +1,7 @@
+// tailwind.config.ts
 import type { Config } from "tailwindcss";
 import tailwindcssMotion from "tailwindcss-motion";
+import tailwindcssIntersect from "tailwindcss-intersect";
 
 export default {
   content: [
@@ -15,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [tailwindcssMotion],
+  plugins: [tailwindcssMotion, tailwindcssIntersect],
 } satisfies Config;
