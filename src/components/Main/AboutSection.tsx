@@ -13,7 +13,7 @@ export const AboutSection = () => {
             className="rounded-lg"
           />
         </div>
-        <div className="w-full mspace-y-4">
+        <div className="w-full space-y-4">
           <p className="text-xl text-gray-700 tracking-wider">Tentang Kami</p>
           <h1 className="text-3xl text-gray-800 font-bold mb-4">Dynasty Basketball</h1>
           <div className="text-justify">

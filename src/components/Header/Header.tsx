@@ -14,7 +14,7 @@ export const Header = () => {
   const isActive = (href: string) => pathname === href;
 
   return (
-    <header className="w-full bg-black/90 backdrop-blur-sm">
+    <header className="w-full bg-black/90 backdrop-blur-sm fixed top-0 left-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-8 md:px-12 py-6">
         <Link href="/" className="relative z-50">
           <Image
