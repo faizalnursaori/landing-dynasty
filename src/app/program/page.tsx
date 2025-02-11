@@ -100,7 +100,10 @@ function page() {
           </div>
         </div>
         <div className="bg-white p-6 rounded-xl shadow-lg transform mt-4">
-          <Link href="https://wa.me/6281382367257" target="_blank">
+          <Link
+            href="https://wa.me/6281299723763"
+            target="_blank"
+          >
             <button className="mt-6 w-full text-white font-semibold py-3 px-6 rounded-lg bg-yellow-500 transition duration-300 intersect-once intersect:motion-preset-slide-up motion-delay-200">
               Hubungi Kami untuk Informasi Lebih Lanjut
             </button>

@@ -24,7 +24,7 @@ const Coach = () => {
     <section className="bg-gray-200 py-16 text-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 intersect-once intersect:motion-preset-slide-up motion-delay-150">
-          Our Coaches
+          Our Teams
         </h2>
 
         <div className="relative max-w-2xl mx-auto">
@@ -49,6 +49,7 @@ const Coach = () => {
                   <h3 className="text-xl font-semibold intersect-once intersect:motion-preset-slide-up motion-delay-200">
                     {coach.name}
                   </h3>
+                  <p className="text-base text-gray-600">{coach.role}</p>
                 </div>
               </div>
             ))}

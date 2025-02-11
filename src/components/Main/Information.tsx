@@ -69,7 +69,7 @@ const Information = () => {
               ))}
             </div>
             <Link
-              href="https://wa.me/6281382367257?text=Halo%20min!%20Saya%20tertarik%20mencoba%20free%20trial%20kelas%20Dynasty%20nih!!"
+              href="https://wa.me/6281299723763?text=Halo%20min!%20Saya%20tertarik%20mencoba%20free%20trial%20kelas%20Dynasty%20nih!!"
               target="_blank"
             >
               <button className="mt-6 w-full bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-600 transition duration-300 intersect-once intersect:motion-preset-slide-up motion-delay-200">

@@ -34,7 +34,7 @@ export const Footer = () => {
                     height={20}
                     className="mr-2"
                   />
-                  <span className="text-white">+62 813-8236-7257</span>
+                  <span className="text-white">+62 812-9972-3763</span>
                 </li>
                 <li className="flex items-center">
                   <Image

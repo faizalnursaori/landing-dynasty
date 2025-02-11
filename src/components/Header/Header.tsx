@@ -61,7 +61,7 @@ export const Header = () => {
           ))}
 
           <Link
-            href="https://wa.me/6281382367257?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
+            href="https://wa.me/6281299723763?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
             target="_blank"
             onClick={() => setIsOpen(false)}
             className={`text-xl md:hidden transition-colors duration-200 font-semibold${
@@ -75,7 +75,7 @@ export const Header = () => {
         </nav>
 
         <Link
-          href="https://wa.me/6281382367257?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
+          href="https://wa.me/6281299723763?text=Halo%20min!%20Saya%20tertarik%20untuk%20join%20Dynasty!!!"
           target="_blank"
           className={`hidden md:block text-lg transition-colors duration-200 font-semibold ${
             isActive("#") ? "text-yellow-500 font-semibold" : "text-gray-300 hover:text-yellow-500"
