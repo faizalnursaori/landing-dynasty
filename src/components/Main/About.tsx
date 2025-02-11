@@ -16,7 +16,7 @@ export const About = () => {
             tepat sasaran.
           </p>
           <Link
-            href="#"
+            href="/about"
             className="rounded-xl border border-yellow-500 px-4 py-2 bg-yellow-500 intersect-once intersect:motion-preset-slide-up motion-delay-100"
           >
             Load More
