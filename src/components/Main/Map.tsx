@@ -18,7 +18,7 @@ const center = {
 
 const openGoogleMaps = () => {
   const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
-  window.open(url, "_blank"); // Buka di tab baru
+  window.open(url, "_blank");
 };
 
 const GoogleMapsComponent = () => {
