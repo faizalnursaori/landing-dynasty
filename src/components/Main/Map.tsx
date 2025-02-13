@@ -54,10 +54,8 @@ const GoogleMapsComponent = () => {
   }
 
   return (
-    <div className="flex flex-col items-center bg-gradient-to-b from-blue-50 to-white p-6 md:p-10">
-      <h2 className="text-2xl md:text-4xl font-extrabold text-gray-800 mb-6 text-center">
-        Lokasi Kami
-      </h2>
+    <div className="flex flex-col items-center bg-gradient-to-b from-blue-50 to-white p-6 md:p-10 space-y-6">
+      <h2 className="text-2xl md:text-4xl font-extrabold text-gray-800 text-center">Lokasi Kami</h2>
       <div className="w-full max-w-4xl overflow-hidden rounded-lg relative">
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
@@ -70,17 +68,12 @@ const GoogleMapsComponent = () => {
             center={center}
             zoom={15}
             onLoad={handleMapLoad}
+            onClick={openGoogleMaps}
           >
             <Marker position={center} />
           </GoogleMap>
         </LoadScript>
       </div>
-      <button
-        onClick={openGoogleMaps}
-        className="mt-4 bg-yellow-500 hover:bg-yellow-700 text-white py-2 px-4 rounded transition duration-300"
-      >
-        Arahkan ke Lokasi
-      </button>
     </div>
   );
 };

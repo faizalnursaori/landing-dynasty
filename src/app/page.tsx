@@ -5,6 +5,7 @@ import Information from "@/components/Main/Information";
 import Coach from "@/components/Main/Coach";
 import { GalleryDynasty } from "@/components/Main/GalleryDynasty";
 import ObserverProvider from "@/Provider/OberserverProvider";
+import GoogleMapsComponent from "@/components/Main/Map";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Information />
         <GalleryDynasty />
         <Coach />
+        <GoogleMapsComponent />
       </ObserverProvider>
     </>
   );

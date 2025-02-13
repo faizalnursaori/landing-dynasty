@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="container mx-auto py-12 px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="md:col-span-1 hidden md:block">
-              <Image src="/dynasty-logo.webp" alt="Logo EliteMed" width={240} height={240} />
+              <Image src="/dynasty-logo.webp" alt="Logo Dynasty" width={240} height={240} />
             </div>
             <div className="md:col-span-1">
               <h3 className="text-lg font-semibold mb-4 text-white">Pages</h3>
